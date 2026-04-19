@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Sky Generator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/press-start-2p/index.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="app-title">✦ PIXEL SKY GENERATOR ✦</div>
+
+    <div class="theme-switch" id="themeSwitch" title="Toggle light / dark">
+      <span class="lbl">LIGHT</span>
+      <div class="track"><div class="thumb"></div></div>
+    </div>
+  </div>
+
+  <div class="app">
+    <canvas id="cv"></canvas>
+
+    <div class="panel">
+      <button class="btn" id="btnNew">NEW IMAGE</button>
+      <hr>
+      <div class="lbl">SIZE (PIXELS):</div>
+      <div class="size-controls">
+        <div class="sz"><span>WIDTH:</span> <input class="si" id="iW" type="number" value="200" min="1"></div>
+        <div class="sz"><span>HEIGHT:</span><input class="si" id="iH" type="number" value="200" min="1"></div>
+      </div>
+      <hr>
+      <div class="lbl">COLORSCHEME:</div>
+      <div class="pl" id="pl"></div>
+      <hr>
+      <div class="tg" id="tg"></div>
+      <hr>
+      <button class="btn" id="btnEx">EXPORT PNG</button>
+    </div>
+  </div>
+
+  <script src="generator.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
