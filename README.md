@@ -2,9 +2,13 @@
 
 A browser-based pixel-art sky & nature background generator — inspired by the look of classic 8-bit game skies. Generate beautiful tileable/exportable backgrounds with procedurally placed clouds, mountains, trees, birds, aurora, rain, snow and more.
 
-![Pixel Sky Generator](demo.png)
+🔗 **[Try it live → mberkesnmz.github.io/Pixel-Sky-Generator](https://mberkesnmz.github.io/Pixel-Sky-Generator/)**
+
 ---
-![Pixel Sky Generator](demo2.png)
+ 
+![demo](demo.png)
+![demo2](demo2.png)
+ 
 ---
 
 ## ✨ Features
